@@ -11,11 +11,10 @@ nav {
 }
 
 footer {
-  max-width: 1440px;
-  height: 433px;
-  background: #ffffff;
-  padding: 0px 135px;
-  padding-top: 76px;
-  padding-bottom: 148.02px;
-  margin: 0px auto;
+  width: 100%;;
+  height: aut0;
+display: flex;
+  padding: 80px 120px;
+  justify-content: space-between;
+ 
 }

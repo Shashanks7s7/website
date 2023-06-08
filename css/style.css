@@ -996,3 +996,89 @@
 
   color: #c8c8dc;
 }
+
+/* here comes the ham burger */
+.hidden {
+  display: none;
+}
+.checkbox {
+  display: none;
+}
+.navbar {
+  /* display: none; */
+  align-items: center;
+  justify-content: center;
+}
+.icon {
+  display: none;
+}
+
+.navbar-toggle-label {
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px;
+}
+
+/* .icon {
+  display: block;
+  width: 30px;
+  height: 4px;
+  background-color: #fff;
+  position: relative;
+  transition: transform 0.3s;
+}
+
+.icon:before, .icon:after {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 4px;
+  background-color: #fff;
+  transition: transform 0.3s;
+} */
+
+.icon:before {
+  top: -10px;
+}
+
+.icon:after {
+  top: 10px;
+}
+
+#navbar-toggle:checked ~ .navbar-toggle-label .icon {
+  transform: rotate(45deg);
+}
+
+#navbar-toggle:checked ~ .navbar-toggle-label .icon:before {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+#navbar-toggle:checked ~ .navbar-toggle-label .icon:after {
+  top: 0;
+  transform: rotate(-45deg);
+}
+
+/* 
+.navbar-menu {
+  display: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.navbar-menu li {
+  margin-bottom: 10px;
+}
+
+.navbar-menu a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+#navbar-toggle:checked ~ .navbar-menu {
+  display: block;
+} */

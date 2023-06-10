@@ -1,58 +1,630 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/layout.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/responsive.css" />
-    <title>Velocity Automobile</title>
-  </head>
-  <body>
-    <header>
-      <div class="headerlist">
-        <div class="gradiant gradiant_first"></div>
-        <div class="headerlist__logo">LOGO</div>
 
-        <!-- <div class="headerlist__menuimage">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <title>Velocity Automobile</title>
+</head>
+
+<body>
+  <header>
+    <div class="headerlist">
+      <div class="gradiant gradiant_first"></div>
+      <div class="headerlist__logo">
+        <img class="headerlist__logo_img" src="images/MicrosoftTeams-image.png " alt="" srcset="">
+      </div>
+
+      <!-- <div class="headerlist__menuimage">
           <img src="images/bars-solid.svg" alt="" />
         </div> -->
-        <button class="headerlist__btn">Get Started</button>
+      <button class="headerlist__btn">Get Started</button>
 
-        <nav>
-          <div class="navbar">
-            <input type="checkbox" id="navbar-toggle" class="checkbox" />
-            <label for="navbar-toggle" class="navbar-toggle-label">
-              <span class="icon"></span>
-            </label>
-            <ul class="headerlist__navlist">
-              <li><a href=""> About US</a></li>
-              <li><a href="">Why Us</a></li>
-              <li><a href="">Road Map</a></li>
-              <li>
-                <a href="#" onclick="showTable('table1')">Token Nomics</a>
-              </li>
-              <li><a href=""> White Paper</a></li>
-            </ul>
-          </div>
-        </nav>
+      <nav>
+        <div class="navbar">
+          <input type="checkbox" id="navbar-toggle" class="checkbox" />
+          <label for="navbar-toggle" class="navbar-toggle-label">
+            <span class="icon"></span>
+          </label>
+          <ul class="headerlist__navlist">
+            <!-- <li><a href=""> Menu</a></li> -->
+            <li><a href="#aboutus"> About US</a></li>
+            <li><a href="#mission">Why Us</a></li>
+            <li><a href="#roadmap">Road Map</a></li>
+            <li>
+              <a href="#tokennomics">Token Nomics</a>
+            </li>
+            <li><a href="images/pdffile.pdf" target="_blank"> White Paper</a>
+              <!-- <iframe name="pdfFrame" src="images/pdffile.pdf"></iframe> -->
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="hero">
+    <div class="hero__div1">
+      <div class="hero__div1_col1">
+        <button class="hero__div1_col1_btn">
+          WELCOME TO OUR AUTOMOBILE MARKETPLACE!
+        </button>
+        <div class="hero__div1_col1_text">
+          Browse our selection of
+          <span style="color: #00f46e">unique</span> digital assets
+        </div>
       </div>
-    </header>
-    <table id="table1" class="custom-table hidden">
+      <div class="hero__div1_col2">
+        <div class="circle green"></div>
+        <div class="circle blue"></div>
+
+        <div class="hero__div1_col2_text1">
+          find the perfect piece to add to your collection.
+        </div>
+        <div class="hero__div1_col2_text2">
+          Shop now and join the NFT revolution.
+        </div>
+      </div>
+    </div>
+    <div class="hero__div2">
+      <div class="gradiant gradiant_second"></div>
+
+      <div class="hero__div2_box">
+        <img class="hero__div2_img" src="images/Rectangle 1.jpg" alt="*" srcset="" />
+      </div>
+      <div class="hero__div2_box">
+        <img class="hero__div2_img" src="images/Rectangle 2.jpg" alt="*" srcset="" />
+      </div>
+      <div class="hero__div2_box">
+        <img class="hero__div2_img" src="images/Rectangle 3.jpg" alt="*" srcset="" />
+      </div>
+      <div class="hero__div2_box">
+        <img class="hero__div2_img" src="images/Rectangle 4.jpg" alt="*" srcset="" />
+      </div>
+      <div class="hero__div2_box">
+        <img class="hero__div2_img" src="images/Rectangle 1.jpg" alt="*" srcset="" />
+      </div>
+    </div>
+    <div class="hero_btn">
+      <button class="btn">Shop Now</button>
+    </div>
+  </section>
+  <div style="position: relative">
+    <div class="gradiant gradiant_third"></div>
+  </div>
+  <section class="bar">
+    <div class="bar__box">
+      <div class="bar__box_text">Trending Vehicle</div>
+      <div class="smallCircle blue"></div>
+    </div>
+    <div class="bar__box">
+      <div class="bar__box_text">Trending Vehicle</div>
+      <div class="smallCircle green"></div>
+    </div>
+    <div class="bar__box">
+      <div class="bar__box_text">Trending Vehicle</div>
+      <div class="smallCircle blue"></div>
+    </div>
+    <div class="bar__box">
+      <div class="bar__box_text">Trending Vehicle</div>
+      <div class="smallCircle green"></div>
+    </div>
+    <div class="bar__box">
+      <div class="bar__box_text">Trending Vehicle</div>
+      <div class="smallCircle blue"></div>
+    </div>
+  </section>
+  <section class="marketplace" id="aboutus">
+    <div class="marketplace__col">
+      <div class="marketplace_line1">
+        <div class="marketplace_line1_box"></div>
+        <div class="marketplace_line1_text">Us</div>
+      </div>
+      <div class="marketplace_line2">About Us</div>
+      <div class="marketplace_line3">
+        We are an innovative team of automotive enthusiasts and blockchain
+        technology experts who have come together to create an
+        automobile-based crypto token. Our mission is to revolutionize the
+        automotive industry by leveraging the power of blockchain and
+        cryptocurrency to enhance various aspects of the sector.
+        <br />
+        Our token aims to bridge the gap between traditional automotive
+        systems and the emerging world of blockchain technology. We believe
+        that blockchain technology can bring transparency, efficiency, and
+        security to the automotive ecosystem, benefiting both consumers and
+        industry participants.
+      </div>
+      <button class="marketplace_btn">Learn More</button>
+      <div class="marketplace__datarow">
+        <div class="marketplace__datarow_first">
+          <div class="datarow_title">1.2k+</div>
+          <div class="datarow_subtitle">trading volume</div>
+        </div>
+        <div class="marketplace__datarow_first">
+          <div class="datarow_title">202k+</div>
+          <div class="datarow_subtitle">collections</div>
+        </div>
+        <div class="marketplace__datarow_first">
+          <div class="datarow_title">2.5k+</div>
+          <div class="datarow_subtitle">users</div>
+        </div>
+      </div>
+    </div>
+    <div class="marketplace__col marketplace__col2">
+      <!-- <img class="marketplace__backimg" src="images/Ellipse 21.png" alt="" srcset=""> -->
+      <!-- <div class="marketplace__backimg"></div> -->
+      <img class="marketplace_frontimg" src="images/Group 2.png" alt="" />
+    </div>
+  </section>
+  <section class="operation" id="mission">
+    <div class="marketplace_line1 operation_line1">
+      <div class="marketplace_line1_box"></div>
+      <div class="marketplace_line1_text">Mission</div>
+    </div>
+    <div class="marketplace_line2">We are on a Mission</div>
+    <div class="marketplace_line3 white">
+      Our mission is to create a decentralized ecosystem that enhances the
+      automotive industry, bringing transparency, security, and efficiency to
+      various aspects of the sector, including car manufacturing, ownership,
+      maintenance, and mobility services. By leveraging blockchain technology,
+      we aim to provide users with a seamless and trustworthy experience while
+      unlocking new possibilities within the automotive world.
+    </div>
+    <div class="operations__box">
+      <div class="operations__box_shapes">
+        <div class="shapes__row">
+          <div class="gradiant gradiant_shapes1"></div>
+          <img src="images/Group 12.png" alt="" />
+
+          <div class="shapes__row_txt">Step 01/</div>
+        </div>
+        <div class="shapes__title">Upload</div>
+        <div class="shapes__subtitle">
+          This contract holds the information about the digital asset
+        </div>
+      </div>
+      <div class="operations__box_shapes shapes_padding1">
+        <div class="shapes__row">
+          <div class="gradiant gradiant_shapes"></div>
+          <img src="images/Group 13.png" alt="" />
+
+          <div class="shapes__row_txt">Step 02/</div>
+        </div>
+        <div class="shapes__title">Reward</div>
+        <div class="shapes__subtitle">
+          This contract holds the information about the digital asset
+        </div>
+      </div>
+      <div class="operations__box_shapes">
+        <div class="shapes__row">
+          <div class="gradiant gradiant_shapes2"></div>
+          <img src="images/Group 15.png" alt="" />
+
+          <div class="shapes__row_txt">Step 03/</div>
+        </div>
+        <div class="shapes__title">Auction</div>
+        <div class="shapes__subtitle">
+          This contract holds the information about the digital asset
+        </div>
+      </div>
+      <div class="operations__box_shapes shapes_padding1">
+        <div class="shapes__row">
+          <!-- <div class="gradiant gradiant_shapes"></div> -->
+          <img src="images/Group 14.png" alt="" />
+
+          <div class="shapes__row_txt">Step 04/</div>
+        </div>
+        <div class="shapes__title">Grow</div>
+        <div class="shapes__subtitle">
+          This contract holds the information about the digital asset
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="collections">
+    <div class="marketplace_line1 collections_line1">
+      <div class="marketplace_line1_box"></div>
+      <div class="marketplace_line1_text">Velocity Automobile latest collections</div>
+    </div>
+    <div class="collections_line2">Best artwork in this week</div>
+    <div class="collections_row">
+      <div class="collections_box">
+        <img class="collections_box_img" src="images/Rectangle 22.jpg" alt="" srcset="" />
+        <div class="box_numbering">#001</div>
+
+        <div class="collections_box_title">Painting</div>
+        <div class="collections_box_line">
+          <div class="col">
+            <div class="collections_box_subtitle">
+              <span class="collections_box_subtitle1">0.8 eth</span>$7434
+            </div>
+            <div class="collections_box_subtitle2">last sale: 0.0556 eth</div>
+          </div>
+          <div class="col">
+            <button class="collections_box_btn">Place Bid</button>
+          </div>
+        </div>
+      </div>
+      <div class="collections_box">
+        <img class="collections_box_img" src="images/Rectangle 3.jpg" alt="" srcset="" />
+        <div class="box_numbering">#002</div>
+
+        <div class="collections_box_title">Child Ape</div>
+        <div class="collections_box_line">
+          <div class="col">
+            <div class="collections_box_subtitle">
+              <span class="collections_box_subtitle1">0.8 eth</span>$7434
+            </div>
+            <div class="collections_box_subtitle2">last sale: 0.0556 eth</div>
+          </div>
+          <div class="col">
+            <button class="collections_box_btn">Place Bid</button>
+          </div>
+        </div>
+      </div>
+      <div class="collections_box">
+        <div class="img_div">
+          <img class="collections_box_img" src="images/Rectangle 4.jpg" alt="" srcset="" />
+          <div class="box_numbering">#003</div>
+        </div>
+        <div class="collections_box_title">Child Ape</div>
+        <div class="collections_box_line">
+          <div class="col">
+            <div class="collections_box_subtitle">
+              <span class="collections_box_subtitle1">0.8 eth</span>$7434
+            </div>
+            <div class="collections_box_subtitle2">last sale: 0.0556 eth</div>
+          </div>
+          <div class="col">
+            <button class="collections_box_btn">Place Bid</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="artworks">
+    <div class="marketplace_line1 collections_line1">
+      <div class="marketplace_line1_box blue"></div>
+      <div class="marketplace_line1_text">Velocity Automobile collections</div>
+    </div>
+    <div class="collections_line2">Best artworks</div>
+    <div class="artworks_button_rows">
+      <div class="first_btn_rows">
+        <button class="artworks_btn">All arts</button>
+        <button class="artworks_btn1">Popular</button>
+        <button class="artworks_btn1">New Arts</button>
+
+        <button class="artworks_btn1">Morden</button>
+
+        <button class="artworks_btn1">Others</button>
+      </div>
+      <button class="artworks_btn1 artworks_btn2">Filter</button>
+    </div>
+    <div class="grid_container">
+      <div class="grid-item">
+        <div class="collections_row">
+          <div class="collections_box grid_box">
+            <img class="collections_box_img grid_box_img" src="images/Rectangle 22.jpg" alt="" srcset="" />
+            <div class="box_numbering">#051</div>
+            <div class="grid_box_line1">
+              <div class="grid_box_title">Painting</div>
+              <div class="grid_box_subtitle">$7434</div>
+            </div>
+
+            <span class="collections_box_subtitle1">0.8 eth</span>
+            <div class="collections_box_subtitle2 grid_subtitle">
+              last sale: 0.0556 eth
+            </div>
+          </div>
+          <div class="collections_box grid_box">
+            <img class="collections_box_img grid_box_img" src="images/Rectangle 3.jpg" alt="" srcset="" />
+            <div class="box_numbering">#052</div>
+
+            <div class="grid_box_line1">
+              <div class="grid_box_title">Painting</div>
+              <div class="grid_box_subtitle">$7434</div>
+            </div>
+
+            <span class="collections_box_subtitle1">0.8 eth</span>
+            <div class="collections_box_subtitle2 grid_subtitle">
+              last sale: 0.0556 eth
+            </div>
+          </div>
+          <div class="collections_box grid_box">
+            <div class="img_div">
+              <img class="collections_box_img grid_box_img" src="images/Rectangle 4.jpg" alt="" srcset="" />
+              <div class="box_numbering">#053</div>
+            </div>
+            <div class="grid_box_line1">
+              <div class="grid_box_title">Painting</div>
+              <div class="grid_box_subtitle">$7434</div>
+            </div>
+
+            <span class="collections_box_subtitle1">0.8 eth</span>
+            <div class="collections_box_subtitle2 grid_subtitle">
+              last sale: 0.0556 eth
+            </div>
+          </div>
+          <div class="collections_box grid_box">
+            <img class="collections_box_img grid_box_img" src="images/Rectangle 22.jpg" alt="" srcset="" />
+            <div class="box_numbering">#054</div>
+            <div class="grid_box_line1">
+              <div class="grid_box_title">Painting</div>
+              <div class="grid_box_subtitle">$7434</div>
+            </div>
+
+            <span class="collections_box_subtitle1">0.8 eth</span>
+            <div class="collections_box_subtitle2 grid_subtitle">
+              last sale: 0.0556 eth
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div class="collections_row grid_row">
+          <div class="collections_box grid_box">
+            <img class="collections_box_img grid_box_img" src="images/Rectangle 22.jpg" alt="" srcset="" />
+            <div class="box_numbering">#055</div>
+
+            <div class="grid_box_line1">
+              <div class="grid_box_title">Painting</div>
+              <div class="grid_box_subtitle">$7434</div>
+            </div>
+            <span class="collections_box_subtitle1">0.8 eth</span>
+            <div class="collections_box_subtitle2 grid_subtitle">
+              last sale: 0.0556 eth
+            </div>
+          </div>
+          <div class="collections_box grid_box">
+            <img class="collections_box_img grid_box_img" src="images/Rectangle 3.jpg" alt="" srcset="" />
+            <div class="box_numbering">#056</div>
+
+            <div class="grid_box_line1">
+              <div class="grid_box_title">Painting</div>
+              <div class="grid_box_subtitle">$7434</div>
+            </div>
+
+            <span class="collections_box_subtitle1">0.8 eth</span>
+            <div class="collections_box_subtitle2 grid_subtitle">
+              last sale: 0.0556 eth
+            </div>
+          </div>
+          <div class="collections_box grid_box">
+            <img class="collections_box_img grid_box_img" src="images/Rectangle 22.jpg" alt="" srcset="" />
+            <div class="box_numbering">#057</div>
+            <div class="grid_box_line1">
+              <div class="grid_box_title">Painting</div>
+              <div class="grid_box_subtitle">$7434</div>
+            </div>
+
+            <span class="collections_box_subtitle1">0.8 eth</span>
+            <div class="collections_box_subtitle2 grid_subtitle">
+              last sale: 0.0556 eth
+            </div>
+          </div>
+          <div class="collections_box grid_box">
+            <div class="img_div">
+              <img class="collections_box_img grid_box_img" src="images/Rectangle 4.jpg" alt="" srcset="" />
+              <div class="box_numbering">#058</div>
+            </div>
+            <div class="grid_box_line1">
+              <div class="grid_box_title">Painting</div>
+              <div class="grid_box_subtitle">$7434</div>
+            </div>
+
+            <div class="col">
+              <span class="collections_box_subtitle1">0.8 eth</span>
+              <div class="collections_box_subtitle2 grid_subtitle">
+                last sale: 0.0556 eth
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="creators">
+    <div class="marketplace_line1 collections_line1">
+      <div class="marketplace_line1_box"></div>
+      <div class="marketplace_line1_text">Velocity Automobile creators</div>
+    </div>
+    <div class="collections_line2">Best Creators Of This week</div>
+    <div class="creators_box">
+      <div class="gradiant gradiant_creators1"></div>
+      <div class="gradiant gradiant_creators2"></div>
+      <div class="gradiant gradiant_creators_mid"></div>
+
+      <!-- <div class="creators_row"> -->
+      <div class="creators_info">
+        <div class="creators_info_number">1</div>
+        <div class="creators_info_picture">
+          <img src="images/Ellipse 29.png" alt="" />
+        </div>
+        <div class="creators_info_detail">
+          <div class="creators_info_name">Mavin White</div>
+          <div class="creators_info_points">3,458,50 Points</div>
+        </div>
+      </div>
+      <div class="creators_info">
+        <div class="creators_info_number">2</div>
+        <div class="creators_info_picture">
+          <img src="images/Ellipse 29.png" alt="" />
+        </div>
+        <div class="creators_info_detail">
+          <div class="creators_info_name">Mavin White</div>
+          <div class="creators_info_points">3,458,50 Points</div>
+        </div>
+      </div>
+
+      <div class="creators_info">
+        <div class="creators_info_number">3</div>
+        <div class="creators_info_picture">
+          <img src="images/Ellipse 29.png" alt="" />
+        </div>
+        <div class="creators_info_detail">
+          <div class="creators_info_name">Mavin White</div>
+          <div class="creators_info_points">3,458,50 Points</div>
+        </div>
+      </div>
+
+      <div class="creators_info">
+        <div class="creators_info_number">4</div>
+        <div class="creators_info_picture">
+          <img src="images/Ellipse 29.png" alt="" />
+        </div>
+        <div class="creators_info_detail">
+          <div class="creators_info_name">Mavin White</div>
+          <div class="creators_info_points">3,458,50 Points</div>
+        </div>
+      </div>
+      <!-- </div> -->
+      <!-- <div class="creators_row"> -->
+      <div class="creators_info">
+        <div class="creators_info_number">5</div>
+        <div class="creators_info_picture">
+          <img src="images/Ellipse 29.png" alt="" />
+        </div>
+        <div class="creators_info_detail">
+          <div class="creators_info_name">Mavin White</div>
+          <div class="creators_info_points">3,458,50 Points</div>
+        </div>
+      </div>
+      <div class="creators_info">
+        <div class="creators_info_number">6</div>
+        <div class="creators_info_picture">
+          <img src="images/Ellipse 29.png" alt="" />
+        </div>
+        <div class="creators_info_detail">
+          <div class="creators_info_name">Mavin White</div>
+          <div class="creators_info_points">3,458,50 Points</div>
+        </div>
+      </div>
+
+      <div class="creators_info">
+        <div class="creators_info_number">7</div>
+        <div class="creators_info_picture">
+          <img src="images/Ellipse 29.png" alt="" />
+        </div>
+        <div class="creators_info_detail">
+          <div class="creators_info_name">Mavin White</div>
+          <div class="creators_info_points">3,458,50 Points</div>
+        </div>
+      </div>
+
+      <div class="creators_info">
+        <div class="creators_info_number">8</div>
+        <div class="creators_info_picture">
+          <img src="images/Ellipse 29.png" alt="" />
+        </div>
+        <div class="creators_info_detail">
+          <div class="creators_info_name">Mavin White</div>
+          <div class="creators_info_points">3,458,50 Points</div>
+        </div>
+      </div>
+      <!-- </div> -->
+    </div>
+  </section>
+  <section class="steps" id="roadmap">
+    <div class="collections_line2">Road Map</div>
+    <table class="custom-table">
+      <tr>
+        <td class="table_text1">Year I </td>
+        <td class="table_text2">2023</td>
+        <td class="table_text3">
+          <ul>
+            <li>Online presence and brand awareness</li>
+      <li>Partner with suppliers and manufacturers</li>
+      <li>Offer discounts and promotions</li>
+            
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td class="table_text1">Year II </td>
+        <td class="table_text2">2024</td>
+        <td class="table_text3">
+          <ul>
+            <li>Expand product range</li>
+      <li>Launch mobile app</li>
+      <li>Develop customer loyalty program</li>
+            
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td class="table_text1">Year III</td>
+        <td class="table_text2">2025</td>
+        <td class="table_text3">
+          <ul>
+            <li>Introduce financing options</li>
+            <li>Launch B2B platform</li>
+            <li>Expand supplier network</li>
+            
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td class="table_text1">Year IV</td>
+        <td class="table_text2">2026</td>
+        <td class="table_text3">
+          <ul>
+       
+            <li>Launch offline store or franchise model</li>
+      <li>Implement referral program</li>
+      <li>Collaborate with insurance companies</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td class="table_text1">Year V</td>
+        <td class="table_text2">2027</td>
+        <td class="table_text3">
+          <ul>
+       
+            <li>Value-added services</li>
+      <li>Expand to other countries</li>
+      <li>Market research and adaptation</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+  </section>
+  <section class="explore" id="explore">
+    <div class="explore_box">
+      <!-- <div class="gradiant gradiant_explore1"></div> -->
+      <div class="gradiant gradiant_explore2"></div>
+
+      <div class="collections_line2 explore_text">
+        All Vehicle you can explore
+      </div>
+      <div class="explore_subtext">
+        create your own proprietary digital wallet to manage both buyers and
+        sellers. Use cards and other tokens to pays from the wallet.
+      </div>
+      <div class="explore_btn_row">
+        <button class="explore_btn1">Connect Wallet</button>
+        <button class="explore_btn2">Explore More</button>
+      </div>
+      <div class="explore_img">
+        <img class="explore_img_img" src="images/NFTs.png" alt="" srcset="" />
+      </div>
+    </div>
+  </section>
+  <section class="steps" id="tokennomics">
+    <div class="collections_line2">Token Nomics</div>
+    <table id="table1" class="custom-table prop1">
       <tr>
         <td class="table_text2">Total Supply</td>
         <td class="table_text3">1,000,000,000.00</td>
@@ -98,646 +670,42 @@
         <td class="table_text3">20%</td>
       </tr>
     </table>
-    <section class="hero">
-      <div class="hero__div1">
-        <div class="hero__div1_col1">
-          <button class="hero__div1_col1_btn">
-            WELCOME TO OUR AUTOMOBILE MARKETPLACE!
-          </button>
-          <div class="hero__div1_col1_text">
-            Browse our selection of
-            <span style="color: #00f46e">unique</span> digital assets
-          </div>
-        </div>
-        <div class="hero__div1_col2">
-          <div class="circle green"></div>
-          <div class="circle blue"></div>
 
-          <div class="hero__div1_col2_text1">
-            find the perfect piece to add to your collection.
-          </div>
-          <div class="hero__div1_col2_text2">
-            Shop now and join the Automobile crypto revolution.
-          </div>
-        </div>
-      </div>
-      <div class="hero__div2">
-        <div class="gradiant gradiant_second"></div>
+  </section>
 
-        <div class="hero__div2_box">
-          <img
-            class="hero__div2_img"
-            src="images/Rectangle 1.jpg"
-            alt="*"
-            srcset=""
-          />
-        </div>
-        <div class="hero__div2_box">
-          <img
-            class="hero__div2_img"
-            src="images/Rectangle 2.jpg"
-            alt="*"
-            srcset=""
-          />
-        </div>
-        <div class="hero__div2_box">
-          <img
-            class="hero__div2_img"
-            src="images/Rectangle 3.jpg"
-            alt="*"
-            srcset=""
-          />
-        </div>
-        <div class="hero__div2_box">
-          <img
-            class="hero__div2_img"
-            src="images/Rectangle 4.jpg"
-            alt="*"
-            srcset=""
-          />
-        </div>
-        <div class="hero__div2_box">
-          <img
-            class="hero__div2_img"
-            src="images/Rectangle 1.jpg"
-            alt="*"
-            srcset=""
-          />
-        </div>
-      </div>
-      <div class="hero_btn">
-        <button class="btn">Shop Now</button>
-      </div>
-    </section>
-    <div style="position: relative">
-      <div class="gradiant gradiant_third"></div>
+  <footer>
+    <div class="headerlist__logo">
+      <img class="headerlist__logo_img" src="images/MicrosoftTeams-image.png " alt="" srcset="">
     </div>
-    <section class="bar">
-      <div class="bar__box">
-        <div class="bar__box_text">Trending Vehicle</div>
-        <div class="smallCircle blue"></div>
+    <div class="footer_info">
+      <div class="footer_info_desc">
+        Nec, enim sed lacus, magna pharetra. Phasellus tincidunt nulla
+        pharetra gravida est.
       </div>
-      <div class="bar__box">
-        <div class="bar__box_text">Trending Vehicle</div>
-        <div class="smallCircle green"></div>
+      <div class="footer_info_icons">
+        <img src="images/youtube.png" alt="" srcset="" />
+        <img src="images/twiter.png" alt="" srcset="" />
+        <img src="images/face.png" alt="" srcset="" />
+        <img src="images/g.png" alt="" srcset="" />
       </div>
-      <div class="bar__box">
-        <div class="bar__box_text">Trending Vehicle</div>
-        <div class="smallCircle blue"></div>
-      </div>
-    </section>
-    <section class="marketplace">
-      <div class="marketplace__col">
-        <div class="marketplace_line1">
-          <div class="marketplace_line1_box"></div>
-          <div class="marketplace_line1_text">Us</div>
-        </div>
-        <div class="marketplace_line2">About Us</div>
-        <div class="marketplace_line3">
-          We are an innovative team of automotive enthusiasts and blockchain
-          technology experts who have come together to create an
-          automobile-based crypto token. Our mission is to revolutionize the
-          automotive industry by leveraging the power of blockchain and
-          cryptocurrency to enhance various aspects of the sector.
-          <br />
-          Our token aims to bridge the gap between traditional automotive
-          systems and the emerging world of blockchain technology. We believe
-          that blockchain technology can bring transparency, efficiency, and
-          security to the automotive ecosystem, benefiting both consumers and
-          industry participants.
-        </div>
-        <button class="marketplace_btn">Learn More</button>
-        <div class="marketplace__datarow">
-          <div class="marketplace__datarow_first">
-            <div class="datarow_title">1.2k+</div>
-            <div class="datarow_subtitle">trading volume</div>
-          </div>
-          <div class="marketplace__datarow_first">
-            <div class="datarow_title">202k+</div>
-            <div class="datarow_subtitle">collections</div>
-          </div>
-          <div class="marketplace__datarow_first">
-            <div class="datarow_title">2.5k+</div>
-            <div class="datarow_subtitle">users</div>
-          </div>
-        </div>
-      </div>
-      <div class="marketplace__col marketplace__col2">
-        <!-- <img class="marketplace__backimg" src="images/Ellipse 21.png" alt="" srcset=""> -->
-        <!-- <div class="marketplace__backimg"></div> -->
-        <img class="marketplace_frontimg" src="images/Group 2.png" alt="" />
-      </div>
-    </section>
-    <section class="operation">
-      <div class="marketplace_line1 operation_line1">
-        <div class="marketplace_line1_box"></div>
-        <div class="marketplace_line1_text">Mission</div>
-      </div>
-      <div class="marketplace_line2">We are on a Mission</div>
-      <div class="marketplace_line3 white">
-        Our mission is to create a decentralized ecosystem that enhances the
-        automotive industry, bringing transparency, security, and efficiency to
-        various aspects of the sector, including car manufacturing, ownership,
-        maintenance, and mobility services. By leveraging blockchain technology,
-        we aim to provide users with a seamless and trustworthy experience while
-        unlocking new possibilities within the automotive world.
-      </div>
-      <div class="operations__box">
-        <div class="operations__box_shapes">
-          <div class="shapes__row">
-            <div class="gradiant gradiant_shapes1"></div>
-            <img src="images/Group 12.png" alt="" />
+      <div class="footer_info_rights">All rights reserved@2021</div>
+    </div>
+    <div class="footer_about">
+      <div class="footer_title">About Us</div>
+      <div class="footer_subtitle">About Vehicle</div>
+      <div class="footer_subtitle">Live Auctions</div>
+      <div class="footer_subtitle">Vehicle Blog</div>
+      <div class="footer_subtitle">Activity</div>
+    </div>
+    <div class="footer_support">
+      <div class="footer_title">Support</div>
+      <div class="footer_subtitle">Help & Support</div>
+      <div class="footer_subtitle">Item Details</div>
+      <div class="footer_subtitle">Author Profile</div>
+      <div class="footer_subtitle">Collection</div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
 
-            <div class="shapes__row_txt">Step 01/</div>
-          </div>
-          <div class="shapes__title">Upload</div>
-          <div class="shapes__subtitle">
-            This contract holds the information about the digital asset
-          </div>
-        </div>
-        <div class="operations__box_shapes shapes_padding1">
-          <div class="shapes__row">
-            <div class="gradiant gradiant_shapes"></div>
-            <img src="images/Group 13.png" alt="" />
-
-            <div class="shapes__row_txt">Step 02/</div>
-          </div>
-          <div class="shapes__title">Reward</div>
-          <div class="shapes__subtitle">
-            This contract holds the information about the digital asset
-          </div>
-        </div>
-        <div class="operations__box_shapes">
-          <div class="shapes__row">
-            <div class="gradiant gradiant_shapes2"></div>
-            <img src="images/Group 15.png" alt="" />
-
-            <div class="shapes__row_txt">Step 03/</div>
-          </div>
-          <div class="shapes__title">Auction</div>
-          <div class="shapes__subtitle">
-            This contract holds the information about the digital asset
-          </div>
-        </div>
-        <div class="operations__box_shapes shapes_padding1">
-          <div class="shapes__row">
-            <!-- <div class="gradiant gradiant_shapes"></div> -->
-            <img src="images/Group 14.png" alt="" />
-
-            <div class="shapes__row_txt">Step 04/</div>
-          </div>
-          <div class="shapes__title">Grow</div>
-          <div class="shapes__subtitle">
-            This contract holds the information about the digital asset
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="collections">
-      <div class="marketplace_line1 collections_line1">
-        <div class="marketplace_line1_box"></div>
-        <div class="marketplace_line1_text">Velocity Automobile latest collections</div>
-      </div>
-      <div class="collections_line2">Best Buy in this week</div>
-      <div class="collections_row">
-        <div class="collections_box">
-          <img
-            class="collections_box_img"
-            src="images/Rectangle 22.jpg"
-            alt=""
-            srcset=""
-          />
-          <div class="box_numbering">#001</div>
-
-          <div class="collections_box_title">Painting</div>
-          <div class="collections_box_line">
-            <div class="col">
-              <div class="collections_box_subtitle">
-                <span class="collections_box_subtitle1">0.8 eth</span>$7434
-              </div>
-              <div class="collections_box_subtitle2">last sale: 0.0556 eth</div>
-            </div>
-            <div class="col">
-              <button class="collections_box_btn">Place Bid</button>
-            </div>
-          </div>
-        </div>
-        <div class="collections_box">
-          <img
-            class="collections_box_img"
-            src="images/Rectangle 3.jpg"
-            alt=""
-            srcset=""
-          />
-          <div class="box_numbering">#002</div>
-
-          <div class="collections_box_title">Child Ape</div>
-          <div class="collections_box_line">
-            <div class="col">
-              <div class="collections_box_subtitle">
-                <span class="collections_box_subtitle1">0.8 eth</span>$7434
-              </div>
-              <div class="collections_box_subtitle2">last sale: 0.0556 eth</div>
-            </div>
-            <div class="col">
-              <button class="collections_box_btn">Place Bid</button>
-            </div>
-          </div>
-        </div>
-        <div class="collections_box">
-          <div class="img_div">
-            <img
-              class="collections_box_img"
-              src="images/Rectangle 4.jpg"
-              alt=""
-              srcset=""
-            />
-            <div class="box_numbering">#003</div>
-          </div>
-          <div class="collections_box_title">Child Ape</div>
-          <div class="collections_box_line">
-            <div class="col">
-              <div class="collections_box_subtitle">
-                <span class="collections_box_subtitle1">0.8 eth</span>$7434
-              </div>
-              <div class="collections_box_subtitle2">last sale: 0.0556 eth</div>
-            </div>
-            <div class="col">
-              <button class="collections_box_btn">Place Bid</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="artworks">
-      <div class="marketplace_line1 collections_line1">
-        <div class="marketplace_line1_box blue"></div>
-        <div class="marketplace_line1_text">Our Vehicle collections</div>
-      </div>
-      <div class="collections_line2">Best artworks</div>
-      <div class="artworks_button_rows">
-        <div class="first_btn_rows">
-          <button class="artworks_btn">All arts</button>
-          <button class="artworks_btn1">Popular</button>
-          <button class="artworks_btn1">New Arts</button>
-
-          <button class="artworks_btn1">Morden</button>
-
-          <button class="artworks_btn1">Others</button>
-        </div>
-        <button class="artworks_btn1 artworks_btn2">Filter</button>
-      </div>
-      <div class="grid_container">
-        <div class="grid-item">
-          <div class="collections_row">
-            <div class="collections_box grid_box">
-              <img
-                class="collections_box_img grid_box_img"
-                src="images/Rectangle 22.jpg"
-                alt=""
-                srcset=""
-              />
-              <div class="box_numbering">#051</div>
-              <div class="grid_box_line1">
-                <div class="grid_box_title">Painting</div>
-                <div class="grid_box_subtitle">$7434</div>
-              </div>
-
-              <span class="collections_box_subtitle1">0.8 eth</span>
-              <div class="collections_box_subtitle2 grid_subtitle">
-                last sale: 0.0556 eth
-              </div>
-            </div>
-            <div class="collections_box grid_box">
-              <img
-                class="collections_box_img grid_box_img"
-                src="images/Rectangle 3.jpg"
-                alt=""
-                srcset=""
-              />
-              <div class="box_numbering">#052</div>
-
-              <div class="grid_box_line1">
-                <div class="grid_box_title">Painting</div>
-                <div class="grid_box_subtitle">$7434</div>
-              </div>
-
-              <span class="collections_box_subtitle1">0.8 eth</span>
-              <div class="collections_box_subtitle2 grid_subtitle">
-                last sale: 0.0556 eth
-              </div>
-            </div>
-            <div class="collections_box grid_box">
-              <div class="img_div">
-                <img
-                  class="collections_box_img grid_box_img"
-                  src="images/Rectangle 4.jpg"
-                  alt=""
-                  srcset=""
-                />
-                <div class="box_numbering">#053</div>
-              </div>
-              <div class="grid_box_line1">
-                <div class="grid_box_title">Painting</div>
-                <div class="grid_box_subtitle">$7434</div>
-              </div>
-
-              <span class="collections_box_subtitle1">0.8 eth</span>
-              <div class="collections_box_subtitle2 grid_subtitle">
-                last sale: 0.0556 eth
-              </div>
-            </div>
-            <div class="collections_box grid_box">
-              <img
-                class="collections_box_img grid_box_img"
-                src="images/Rectangle 22.jpg"
-                alt=""
-                srcset=""
-              />
-              <div class="box_numbering">#054</div>
-              <div class="grid_box_line1">
-                <div class="grid_box_title">Painting</div>
-                <div class="grid_box_subtitle">$7434</div>
-              </div>
-
-              <span class="collections_box_subtitle1">0.8 eth</span>
-              <div class="collections_box_subtitle2 grid_subtitle">
-                last sale: 0.0556 eth
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="grid-item">
-          <div class="collections_row grid_row">
-            <div class="collections_box grid_box">
-              <img
-                class="collections_box_img grid_box_img"
-                src="images/Rectangle 22.jpg"
-                alt=""
-                srcset=""
-              />
-              <div class="box_numbering">#055</div>
-
-              <div class="grid_box_line1">
-                <div class="grid_box_title">Painting</div>
-                <div class="grid_box_subtitle">$7434</div>
-              </div>
-              <span class="collections_box_subtitle1">0.8 eth</span>
-              <div class="collections_box_subtitle2 grid_subtitle">
-                last sale: 0.0556 eth
-              </div>
-            </div>
-            <div class="collections_box grid_box">
-              <img
-                class="collections_box_img grid_box_img"
-                src="images/Rectangle 3.jpg"
-                alt=""
-                srcset=""
-              />
-              <div class="box_numbering">#056</div>
-
-              <div class="grid_box_line1">
-                <div class="grid_box_title">Painting</div>
-                <div class="grid_box_subtitle">$7434</div>
-              </div>
-
-              <span class="collections_box_subtitle1">0.8 eth</span>
-              <div class="collections_box_subtitle2 grid_subtitle">
-                last sale: 0.0556 eth
-              </div>
-            </div>
-            <div class="collections_box grid_box">
-              <img
-                class="collections_box_img grid_box_img"
-                src="images/Rectangle 22.jpg"
-                alt=""
-                srcset=""
-              />
-              <div class="box_numbering">#057</div>
-              <div class="grid_box_line1">
-                <div class="grid_box_title">Painting</div>
-                <div class="grid_box_subtitle">$7434</div>
-              </div>
-
-              <span class="collections_box_subtitle1">0.8 eth</span>
-              <div class="collections_box_subtitle2 grid_subtitle">
-                last sale: 0.0556 eth
-              </div>
-            </div>
-            <div class="collections_box grid_box">
-              <div class="img_div">
-                <img
-                  class="collections_box_img grid_box_img"
-                  src="images/Rectangle 4.jpg"
-                  alt=""
-                  srcset=""
-                />
-                <div class="box_numbering">#058</div>
-              </div>
-              <div class="grid_box_line1">
-                <div class="grid_box_title">Painting</div>
-                <div class="grid_box_subtitle">$7434</div>
-              </div>
-
-              <div class="col">
-                <span class="collections_box_subtitle1">0.8 eth</span>
-                <div class="collections_box_subtitle2 grid_subtitle">
-                  last sale: 0.0556 eth
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="creators">
-      <div class="marketplace_line1 collections_line1">
-        <div class="marketplace_line1_box"></div>
-        <div class="marketplace_line1_text">Nft-mints creators</div>
-      </div>
-      <div class="collections_line2">Best Creators Of This week</div>
-      <div class="creators_box">
-        <div class="gradiant gradiant_creators1"></div>
-        <div class="gradiant gradiant_creators2"></div>
-        <div class="gradiant gradiant_creators_mid"></div>
-
-        <!-- <div class="creators_row"> -->
-        <div class="creators_info">
-          <div class="creators_info_number">1</div>
-          <div class="creators_info_picture">
-            <img src="images/Ellipse 29.png" alt="" />
-          </div>
-          <div class="creators_info_detail">
-            <div class="creators_info_name">Mavin White</div>
-            <div class="creators_info_points">3,458,50 Points</div>
-          </div>
-        </div>
-        <div class="creators_info">
-          <div class="creators_info_number">2</div>
-          <div class="creators_info_picture">
-            <img src="images/Ellipse 29.png" alt="" />
-          </div>
-          <div class="creators_info_detail">
-            <div class="creators_info_name">Mavin White</div>
-            <div class="creators_info_points">3,458,50 Points</div>
-          </div>
-        </div>
-
-        <div class="creators_info">
-          <div class="creators_info_number">3</div>
-          <div class="creators_info_picture">
-            <img src="images/Ellipse 29.png" alt="" />
-          </div>
-          <div class="creators_info_detail">
-            <div class="creators_info_name">Mavin White</div>
-            <div class="creators_info_points">3,458,50 Points</div>
-          </div>
-        </div>
-
-        <div class="creators_info">
-          <div class="creators_info_number">4</div>
-          <div class="creators_info_picture">
-            <img src="images/Ellipse 29.png" alt="" />
-          </div>
-          <div class="creators_info_detail">
-            <div class="creators_info_name">Mavin White</div>
-            <div class="creators_info_points">3,458,50 Points</div>
-          </div>
-        </div>
-        <!-- </div> -->
-        <!-- <div class="creators_row"> -->
-        <div class="creators_info">
-          <div class="creators_info_number">5</div>
-          <div class="creators_info_picture">
-            <img src="images/Ellipse 29.png" alt="" />
-          </div>
-          <div class="creators_info_detail">
-            <div class="creators_info_name">Mavin White</div>
-            <div class="creators_info_points">3,458,50 Points</div>
-          </div>
-        </div>
-        <div class="creators_info">
-          <div class="creators_info_number">6</div>
-          <div class="creators_info_picture">
-            <img src="images/Ellipse 29.png" alt="" />
-          </div>
-          <div class="creators_info_detail">
-            <div class="creators_info_name">Mavin White</div>
-            <div class="creators_info_points">3,458,50 Points</div>
-          </div>
-        </div>
-
-        <div class="creators_info">
-          <div class="creators_info_number">7</div>
-          <div class="creators_info_picture">
-            <img src="images/Ellipse 29.png" alt="" />
-          </div>
-          <div class="creators_info_detail">
-            <div class="creators_info_name">Mavin White</div>
-            <div class="creators_info_points">3,458,50 Points</div>
-          </div>
-        </div>
-
-        <div class="creators_info">
-          <div class="creators_info_number">8</div>
-          <div class="creators_info_picture">
-            <img src="images/Ellipse 29.png" alt="" />
-          </div>
-          <div class="creators_info_detail">
-            <div class="creators_info_name">Mavin White</div>
-            <div class="creators_info_points">3,458,50 Points</div>
-          </div>
-        </div>
-        <!-- </div> -->
-      </div>
-    </section>
-    <section class="steps">
-      <div class="collections_line2">Our yearly RoadMap</div>
-      <table class="custom-table">
-        <tr>
-          <td class="table_text1">Step 01/</td>
-          <td class="table_text2">create account and setup wallet</td>
-          <td class="table_text3">
-            create your own proprietary digital wallet to manage both buyers and
-            sellers. Use cards and other tokens to pays from the wallet.
-          </td>
-        </tr>
-        <tr>
-          <td class="table_text1">Step 02/</td>
-          <td class="table_text2">create your collections</td>
-          <td class="table_text3">
-            Compete with the most iconic wallets in the market by using our
-            platform. Use cards and other tokens to pay from the wallet.
-          </td>
-        </tr>
-        <tr>
-          <td class="table_text1">Step 03/</td>
-          <td class="table_text2">add your NFTs</td>
-          <td class="table_text3">
-            our platform integrates to any Enterprise-level ecosystem
-            seamlessly. Use cads and other tokens to pay from wallet
-          </td>
-        </tr>
-        <tr>
-          <td class="table_text1">Step 04/</td>
-          <td class="table_text2">sell your NFTs</td>
-          <td class="table_text3">
-            Blockchain Bandicoot together with NFT-MINTS is a collection of over
-            5,000 unique NFTs living on the Ethereum blockchain
-          </td>
-        </tr>
-      </table>
-    </section>
-    <section class="explore">
-      <div class="explore_box">
-        <!-- <div class="gradiant gradiant_explore1"></div> -->
-        <div class="gradiant gradiant_explore2"></div>
-
-        <div class="collections_line2 explore_text">
-          All Vehicles you can explore
-        </div>
-        <div class="explore_subtext">
-          create your own proprietary digital wallet to manage both buyers and
-          sellers. Use cards and other tokens to pays from the wallet.
-        </div>
-        <div class="explore_btn_row">
-          <button class="explore_btn1">Connect Wallet</button>
-          <button class="explore_btn2">Explore More</button>
-        </div>
-        <div class="explore_img">
-          <img class="explore_img_img" src="images/NFTs.png" alt="" srcset="" />
-        </div>
-      </div>
-    </section>
-    <footer>
-      <div class="footer_logo">LOGO-HERE</div>
-      <div class="footer_info">
-        <div class="footer_info_desc">
-          Nec, enim sed lacus, magna pharetra. Phasellus tincidunt nulla
-          pharetra gravida est.
-        </div>
-        <div class="footer_info_icons">
-          <img src="images/youtube.png" alt="" srcset="" />
-          <img src="images/twiter.png" alt="" srcset="" />
-          <img src="images/face.png" alt="" srcset="" />
-          <img src="images/g.png" alt="" srcset="" />
-        </div>
-        <div class="footer_info_rights">All rights reserved@2021</div>
-      </div>
-      <div class="footer_about">
-        <div class="footer_title">About Us</div>
-        <div class="footer_subtitle">Live Auctions</div>
-        <div class="footer_subtitle">NFT Blog</div>
-        <div class="footer_subtitle">Activity</div>
-      </div>
-      <div class="footer_support">
-        <div class="footer_title">Support</div>
-        <div class="footer_subtitle">Help & Support</div>
-        <div class="footer_subtitle">Item Details</div>
-        <div class="footer_subtitle">Author Profile</div>
-        <div class="footer_subtitle">Collection</div>
-      </div>
-    </footer>
-    <script src="js/main.js"></script>
-  </body>
 </html>

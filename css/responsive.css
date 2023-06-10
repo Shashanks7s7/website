@@ -2,7 +2,7 @@
   .creators_box {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    overflow: scroll;
+    overflow-x: scroll;
   }
 }
 @media only screen and (max-width: 1145px) {

@@ -4,7 +4,20 @@
   box-sizing: border-box;
   font-family: "Raleway";
   background-color: #151e3d;
+
 }
 .primarycolor {
   color: #f5f5f5;
 }
+
+
+
+/* body{
+  background-image: url('/images/rm117-nap-35.png');
+  background-size:cover;
+  background-position: center;
+  position: relative;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+} */

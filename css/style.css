@@ -43,6 +43,7 @@ iframe {
 }
 .gradiant_first {
   left: -100px;
+  z-index: 1;
   top: -100px;
 }
 .gradiant_second {
@@ -401,13 +402,13 @@ iframe {
   color: #ffffff;
   position: absolute;
   max-width: 1200px;
-  height: 122px;
+  height: auto;
   left: 482px;
   top: 160px;
   padding-right: 15px;
 }
 .operations__box {
-  margin-top: 200px;
+  margin-top: 280px;
   display: flex;
   justify-content: space-around;
 }
@@ -810,7 +811,7 @@ iframe {
 .steps {
   width: 100%;
   padding: 0 100px;
-  margin-top: 175px;
+  margin-top: 0px;
 }
 .custom-table {
   border-collapse: collapse;
@@ -968,13 +969,17 @@ td:nth-child(3) {
   max-height: 400px;
   bottom: 0;
   right: 0;
-  color: #00f46e;
+  
   background-color: transparent;
 }
 .explore_img_img {
   background-color: transparent;
+background-size: contain;
   width: 100%;
   height: 100%;
+}
+.steos__col{
+  display: flex;
 }
 .footer_info {
   max-width: 375px;
@@ -1097,6 +1102,15 @@ td:nth-child(3) {
 #navbar-toggle:checked ~ .navbar-toggle-label .icon:after {
   top: 0;
   transform: rotate(-45deg);
+}
+#chartContainer {
+  width:500px;
+  height: 500px;
+
+}
+.footer_icon{
+  height: 30px;
+  width: 30px;
 }
 
 /* 

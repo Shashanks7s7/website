@@ -17,25 +17,38 @@ document.addEventListener('DOMContentLoaded', function () {
         backgroundColor:'transparent'
       },
       title: {
-        text: 'Piechart',
+        text: '',
       },
       credits:{
         enabled:false
       },
       plotOptions: {
         pie: {
-          allowPointSelect: true,
+          allowPointSelect: false,
           cursor: 'pointer',
           dataLabels: {
-            enabled: false
+            enabled: false,
+            style:{
+            color:'red'
+            }
           },
-          showInLegend: true
+          showInLegend: true,
+          
         }
       },
       tooltip: {
         formatter: function () {
           return '<b>' + this.point.name + '</b>: ' + this.point.y+"%";
         }
+      },
+      legend: {
+        itemStyle: {
+          color: 'white' // Set the legend item color to blue
+        },
+        labelFormatter: function () {
+          return '<span style="text-decoration: none;">' + this.name + '</span>'; // Disable click event and underline on legend items
+        },
+        useHTML: true
       },
       series: [{
         name: 'Categories',

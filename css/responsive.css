@@ -244,6 +244,7 @@
     font-size: 18px;
     float: none;
   }
+  
   .headerlist__navlist {
     padding-right: 0.8rem;
   }
@@ -747,7 +748,7 @@
   }
   .headerlist__logo {
     float: right;
-    padding-top: 10px;
+    /* padding-top: 10px; */
   }
   .headerlist__navlist {
     display: none;
